@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstpage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+#movebox{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px gray;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.four{
+    transform: translate(-155%, -45%);
+    transition: all 0.12s linear;
+}
+.five{
+    transform: translate(-357%, 355%);
+    transition: all 0.11s linear;
+}
+.six{
+    transform: translate(255%, 350%);
+    transition: all 0.30s linear;
+}
+.seven{
+    transform: translate(55%, -50%);
+    transition: all 0.31s linear;
+}
+.eight{
+    transform: translate(-256%, -45%);
+    transition: all 0.23s linear;
+}
+.nine{
+    transform: translate(-440%, 500%);
+    transition: all 0.40s linear;
+}
+.main{
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 15px gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirteen{
+    transform: translate(-357%, 255%);
+    transition: all 0.45s linear;
+}
+.fourteen{
+    transform: translate(-357%, -445%);
+    transition: all 0.31s linear;
+}
+.fifteen{
+    transform: translate(-380%, 455%);
+    transition: all 0.26s linear;
+}
+.seventeen{
+    transform: translate(155%, -50%);
+    transition: all 0.14s linear;
+}
+.eighteen{
+    transform: translate(255%, 250%);
+    transition: all 0.16s linear;
+}
+.ninteen{
+    transform: translate(255%, -450%);
+    transition: all 0.18s linear;
+}
+.T20{
+    transform: translate(255%, -150%);
+    transition: all 0.20s linear;
+}
+.T21{
+    transform: translate(-357%, -245%);
+    transition: all 0.22s linear;
+}
+.T22{
+    transform: translate(-357%, 155%);
+    transition: all 0.24s linear;
+}
+.T23{
+    transform: translate(-357%, -345%);
+    transition: all 0.18s linear;
+}
+.T24{
+    transform: translate(-357%, 55%);
+    transition: all 0.10s linear;
+}
+.T25{
+    transform: translate(-357%, -145%);
+    transition: all 0.20s linear;
+}
+.T26{
+    transform: translate(255%, -250%);
+    transition: all 0.14s linear;
+}
+.T27{
+    transform: translate(255%, 150%);
+    transition: all 0.15s linear;
+}
+.T28{
+    transform: translate(255%, -50%);
+    transition: all 0.28s linear;
+}
+.T29{
+    transform: translate(255%, 50%);
+    transition: all 0.30s linear; 
+}
+.T30{
+    transform: translate(-357%, -45%);
+    transition: all 0.18s linear;
+}
+.T31{
+    transform: translate(255%, -350%);
+    transition: all 0.18s linear;
+}
